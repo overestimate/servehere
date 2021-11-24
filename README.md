@@ -10,7 +10,7 @@ Pretty crude install method. Feel free to modify.
 Run the following commands in a CMD session:
 ```batch
 curl -Lo "%USERPROFILE%/servehere.exe" "https://github.com/overestimate/servehere/releases/download/0.0.0/webserve-win.exe"
-setx PATH "%PATH%;%USERPROFILE%\servehere.exe"
+setx PATH "%PATH%;%USERPROFILE%"
 ```
 
 ### Mac OS (Intel)
@@ -19,7 +19,7 @@ Install cURL if needed.
 Run the following commands using your preferred terminal session:
 ```sh
 curl -Lo "$HOME/servehere.bin" "https://github.com/overestimate/servehere/releases/download/0.0.0/webserve-mac.bin"
-echo 'export PATH=$PATH:$HOME/servehere.bin' >> $HOME/.profile
+echo 'export PATH=$PATH:$HOME' >> $HOME/.profile
 ```
 
 ### Linux
@@ -28,7 +28,7 @@ Install cURL if needed.
 Run the following commands using your preferred terminal session:
 ```sh
 curl -Lo "$HOME/servehere.bin" "https://github.com/overestimate/servehere/releases/download/0.0.0/webserve-linux.bin"
-echo 'export PATH=$PATH:$HOME/servehere.bin' >> $HOME/.profile
+echo 'export PATH=$PATH:$HOME' >> $HOME/.profile
 ```
 
 ## Usage
