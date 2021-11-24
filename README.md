@@ -3,7 +3,7 @@ Serves your current directory on port 8080. That's all.
 
 ## Installation
 
-<h4> not working right now, i dont have compiled versions. ignore this plz </h4>
+Pretty crude install method. Feel free to modify.
 
 ### Windows
 
