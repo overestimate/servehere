@@ -9,7 +9,7 @@ Serves your current directory on port 8080. That's all.
 
 Run the following commands in a CMD session:
 ```batch
-curl -Lo "%USERPROFILE%/servehere.exe" "https://github.link.here"
+curl -Lo "%USERPROFILE%/servehere.exe" "https://github.com/overestimate/servehere/releases/download/0.0.0/webserve-win.exe"
 setx PATH "%PATH%;%USERPROFILE%\servehere.exe"
 ```
 
@@ -18,7 +18,7 @@ setx PATH "%PATH%;%USERPROFILE%\servehere.exe"
 Install cURL if needed.
 Run the following commands using your preferred terminal session:
 ```sh
-curl -Lo "$HOME/servehere.bin" "https://github.link.here"
+curl -Lo "$HOME/servehere.bin" "https://github.com/overestimate/servehere/releases/download/0.0.0/webserve-mac.bin"
 echo 'export PATH=$PATH:$HOME/servehere.bin' >> $HOME/.profile
 ```
 
@@ -27,7 +27,7 @@ echo 'export PATH=$PATH:$HOME/servehere.bin' >> $HOME/.profile
 Install cURL if needed.
 Run the following commands using your preferred terminal session:
 ```sh
-curl -Lo "$HOME/servehere.bin" "https://github.link.here"
+curl -Lo "$HOME/servehere.bin" "https://github.com/overestimate/servehere/releases/download/0.0.0/webserve-linux.bin"
 echo 'export PATH=$PATH:$HOME/servehere.bin' >> $HOME/.profile
 ```
 
