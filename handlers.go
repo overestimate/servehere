@@ -11,7 +11,7 @@ func declareHandlers() {
 }
 
 func fetchFile(w http.ResponseWriter, r *http.Request) {
-	p := "htdocs" + r.URL.Path
+	p := r.URL.Path
 	if p == "" {
 		p = "index.htm"
 	}
@@ -20,7 +20,7 @@ func fetchFile(w http.ResponseWriter, r *http.Request) {
 	}
 	t, e := readFile(p)
 	if e != nil || t == nil {
-		http.Error(w, "SERVEHERE -- Page not found.", 404)
+		http.Error(w, "File not found.", 404)
 		return
 	}
 	fmt.Fprintf(w, "%s", *t)
