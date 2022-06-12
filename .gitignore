@@ -69,6 +69,5 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,go,windows
 
-# remove served content when pushing
-
-htdocs/*
+# Binaries created by build.bat
+webserve-*
